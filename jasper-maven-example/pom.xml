@@ -1,8 +1,20 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>dev.kilima</groupId>
-  <artifactId>jasper-maven-example</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <name>jasper-maven-example</name>
-  <description>This is an example of Jasper reports on a Maven project</description>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>dev.kilima</groupId>
+	<artifactId>jasper-maven-example</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>jasper-maven-example</name>
+	<description>This is an example of Jasper reports on a Maven project</description>
+	<dependencies>
+		<!--
+		https://mvnrepository.com/artifact/net.sf.jasperreports/jasperreports -->
+		<dependency>
+			<groupId>net.sf.jasperreports</groupId>
+			<artifactId>jasperreports</artifactId>
+			<version>6.21.3</version>
+		</dependency>
+
+	</dependencies>
 </project>
